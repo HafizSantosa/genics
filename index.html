@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {},
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <h1 class="text-xl">Hello world!</h1>
+    <div class="flex align-middle">
+        <div class="rounded-full p-5 m-2 bg-slate-500">1</div>
+        <div class="rounded-full p-5 m-2 bg-slate-500">2</div>
+        <div class="rounded-full p-5 m-2 bg-slate-500">3</div>
+        <div class="rounded-full p-5 m-2 bg-slate-500">4</div>
+        <div class="rounded-full p-5 m-2 bg-slate-500">5</div>
+    </div>
+    <h1 class="text-xl">Hello world!</h1>
+    <div class="flex gap-2 py-1">
+        <div class="w-1/2 h-20 bg-slate-500">1</div>
+        <div class="w-1/2 h-20 bg-slate-500">1</div>
+    </div>
+    <div class="flex gap-2 py-1">
+        <div class="w-1/2 h-20 bg-slate-500">1</div>
+        <div class="w-1/2 h-20 bg-slate-500">1</div>
+    </div>
+  </body>
+</html>
